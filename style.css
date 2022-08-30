@@ -1,0 +1,66 @@
+
+body{    overflow: hidden}
+
+.continer{
+    width: 100vw;
+    height: 100vh;
+    margin: 5px auto;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+ 
+
+
+}
+h3{
+    font-size: 50px;
+    color: #13436B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.content{
+margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+
+.whatsIcon{
+    width: 100px;
+    height: 100px;
+
+}
+
+h1{
+    font-size: 80px;
+    color: #13436B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+@media (max-width:420px) {
+    h3{
+        font-size: 60px;
+
+    }
+    .logoImage{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
