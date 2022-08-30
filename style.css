@@ -13,36 +13,44 @@ body{    overflow: hidden}
 
 
 }
-h3{
-    font-size: 50px;
-    color: #13436B;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 
-}
+.logo{
 
-.content{
-margin: 100px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
+    
 
 }
 
+.logoImage{
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
 
 
 .whatsIcon{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 
 }
 
-h1{
-    font-size: 80px;
-    color: #13436B;
+h3{
+    font-size: 60px;
+    color: #A8123E;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+}
+h1{
+    color: #A8123E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 38px;
 }
 a{
     display: flex;
